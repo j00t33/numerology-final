@@ -1,0 +1,92 @@
+.new-person, .edit-person {
+	width: 600px;
+	background: #fafafa;
+	padding: 20px;
+	box-shadow: 0 1px 1px #ddd;
+	margin: 0 auto;
+}
+
+.new-person div, .edit-person div {
+	margin: 20px;
+	font-size: 16px;
+}
+
+.new-person label, .edit-person label {
+	width: 100px;
+}
+
+.new-person input, .edit-person input {
+	width: 520px;
+	border-radius: 4px;
+	padding: 10px;
+	box-shadow: inset 0px 0px 2px #bbb;
+	border: 0px inset;
+	height: 50px;
+}
+
+.new-person input:focus, .edit-person input:focus {
+	border: 2px solid tomato;
+}
+
+.btn {
+	padding: 10px 12px;
+	background: tomato;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.btn:hover {
+	color: #fff;
+	background: #FD4928;
+}
+
+.form-header {
+	text-align: center;
+	color: #666;
+}
+
+table {
+	font-size: 20px;
+	background: #fafafa;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px #ddd;
+	width: 900px;
+	margin: 0 auto;
+}
+
+table td, table th {
+	padding: 20px;
+}
+
+table a {
+	text-decoration: none;
+	color: tomato;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.btn-delete {
+	padding: 6px 10px;
+	background: tomato;
+	color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 1px 0 #FD4928;
+	border: 0 solid #fff;
+}
+
+.user-info, .message {
+	text-align: center;
+	width: 900px;
+	padding: 20px;
+	line-height: 1.5em;
+	font-size: 20px;
+	color: tomato;
+	background: #fafafa;
+	box-shadow: 0 1px 1px #ddd;
+	border-radius: 4px;
+	margin: 0 auto;
+}
